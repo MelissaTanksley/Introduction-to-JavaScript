@@ -65,6 +65,17 @@ function feed (age, pounds) {
 }
     console.log(feed(1,15));
 
+    //OR
+
+    function dogFeeder(percentOfWeight, age){
+        const poundsOfRawFood = 0;
+        let weight = 15;
+        let age =1;
+        poundsOfRawFood = (age/weight);
+        console.log(poundsOfRawFood);
+        return poundsOfRawFood;
+      }  
+      dogFeeder()
 
 /************************************************************** Task 4 **************************************************************/
 // Rock, Paper, Sissors
@@ -191,6 +202,8 @@ function roundit(which){
   
 function annoyingSong () {
 
+
+
     var bottles;
     for (counter = 99; counter >= 1; counter = counter - 1) 
     {
@@ -213,7 +226,6 @@ function annoyingSong () {
     }
 
 }
- ////////////////////////////////////////////////////////////
 
  
 
